@@ -1,0 +1,34 @@
+{
+  "name": "text-to-morse-consoleapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "text_to_morse": "^1.0.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "pkg --targets win . --out-path dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandyGrullon/Text-To-Morse-ConsoleApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandyGrullon/Text-To-Morse-ConsoleApp/issues"
+  },
+  "homepage": "https://github.com/RandyGrullon/Text-To-Morse-ConsoleApp#readme",
+  "bin": {
+    "ttm": "./index.js"
+  },
+  "pkg": {
+    "scripts": "./index.js"
+    
+  }
+}
